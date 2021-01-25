@@ -10,4 +10,7 @@ describe 'Split-Stings' do
     it 'test sting of length 4' do
         expect(split('abcd')).to eq(['ab','cd'])
     end
+    it 'test sting of length 3' do
+        expect(split('abc')).to eq(['ab','c_'])
+    end
 end
